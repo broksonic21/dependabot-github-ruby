@@ -1,0 +1,16 @@
+version: 2
+enable-beta-ecosystems: true
+updates:
+ - package-ecosystem: "bundler"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "sunday"
+      time: "16:00"
+      timezone: "America/New_York"
+    pull-request-branch-name:
+      separator: "-"
+    versioning-strategy: increase
+    open-pull-requests-limit: 20
+    insecure-external-code-execution: deny
+
