@@ -1,0 +1,21 @@
+GIT
+  remote: https://github.com/OmarSkalli/fixy.git
+  revision: 074eb7ea86b69a3828b9da004c014d82dbb794c9
+  specs:
+    fixy (0.0.9)
+      rake
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rake (13.2.1)
+
+PLATFORMS
+  arm64-darwin-24
+  ruby
+
+DEPENDENCIES
+  fixy!
+
+BUNDLED WITH
+   2.6.7
