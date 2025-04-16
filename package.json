@@ -1,0 +1,14 @@
+{
+  "name": "dependabot-github-ruby",
+  "version": "1.0.0",
+  "description": "Reproduction environment for https://github.com/dependabot/dependabot-core/issues/12033",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@honeycombio/opentelemetry-web": "^0.16.0"
+  }
+}
