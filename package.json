@@ -9,6 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@honeycombio/opentelemetry-web": "0.16.0"
+    "@honeycombio/opentelemetry-web": "0.16.0",
+    "@strapi-community/strapi-provider-upload-google-cloud-storage": "^5.0.2",
+    "@strapi/plugin-users-permissions": "5.12.7",
+    "@strapi/provider-email-nodemailer": "5.12.7",
+    "@strapi/strapi": "5.12.7",
+    "@strapi/typescript-utils": "5.12.7",
+    "strapi-plugin-preview-button": "3.0.0"
   }
 }
