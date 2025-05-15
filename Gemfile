@@ -6,5 +6,4 @@ source "https://rubygems.org"
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-gem "fixy", github: "OmarSkalli/fixy"
-gem "nokogiri"
+

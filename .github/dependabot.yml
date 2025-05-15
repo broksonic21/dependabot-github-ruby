@@ -1,27 +1,42 @@
 version: 2
 enable-beta-ecosystems: true
 updates:
- - package-ecosystem: "bundler"
-   directory: "/"
-   schedule:
-    interval: "weekly"
-    day: "sunday"
-    time: "14:00"
-    timezone: "America/New_York"
-   pull-request-branch-name:
-    separator: "-"
-   versioning-strategy: increase
-   open-pull-requests-limit: 20
-   insecure-external-code-execution: deny
-   cooldown:
-    default-days: 5 # Fallback cooldown if no specific rule applies
-    semver-major-days: 14 # Cooldown for major version updates
-    semver-minor-days: 7 # Cooldown for minor version updates
-    semver-patch-days: 3 # Cooldown for patch updates
- - package-ecosystem: "npm"
-   directory: "/"
-   schedule:
-    interval: "weekly"
-    day: "sunday"
-    time: "14:00"
-    timezone: "America/New_York"
+  - package-ecosystem: "bundler"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "sunday"
+      time: "14:00"
+      timezone: "America/New_York"
+    pull-request-branch-name:
+      separator: "-"
+    versioning-strategy: increase
+    open-pull-requests-limit: 20
+    insecure-external-code-execution: deny
+    cooldown:
+      default-days: 5 # Fallback cooldown if no specific rule applies
+      semver-major-days: 14 # Cooldown for major version updates
+      semver-minor-days: 7 # Cooldown for minor version updates
+      semver-patch-days: 3 # Cooldown for patch updates
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "sunday"
+      time: "14:00"
+      timezone: "America/New_York"
+    versioning-strategy: increase
+    pull-request-branch-name:
+      separator: "-"
+    cooldown:
+      default-days: 5 # Fallback cooldown if no specific rule applies
+      semver-major-days: 14 # Cooldown for major version updates
+      semver-minor-days: 7 # Cooldown for minor version updates
+      semver-patch-days: 3 # Cooldown for patch updates
+    groups:
+      strapi:
+        patterns:
+          - "strapi*"
+          - "@strapi*"
+          - "@strapi/*"
+    open-pull-requests-limit: 20

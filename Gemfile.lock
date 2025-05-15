@@ -1,31 +1,6 @@
-GIT
-  remote: https://github.com/OmarSkalli/fixy.git
-  revision: 074eb7ea86b69a3828b9da004c014d82dbb794c9
-  specs:
-    fixy (0.0.9)
-      rake
-
 GEM
   remote: https://rubygems.org/
   specs:
-    nokogiri (1.18.7-aarch64-linux-gnu)
-      racc (~> 1.4)
-    nokogiri (1.18.7-aarch64-linux-musl)
-      racc (~> 1.4)
-    nokogiri (1.18.7-arm-linux-gnu)
-      racc (~> 1.4)
-    nokogiri (1.18.7-arm-linux-musl)
-      racc (~> 1.4)
-    nokogiri (1.18.7-arm64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.18.7-x86_64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.18.7-x86_64-linux-gnu)
-      racc (~> 1.4)
-    nokogiri (1.18.7-x86_64-linux-musl)
-      racc (~> 1.4)
-    racc (1.8.1)
-    rake (13.2.1)
 
 PLATFORMS
   aarch64-linux-gnu
@@ -38,21 +13,8 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
-  fixy!
-  nokogiri
 
 CHECKSUMS
-  fixy (0.0.9)
-  nokogiri (1.18.7-aarch64-linux-gnu) sha256=57a064ab5440814a69a0e040817bd8154adea68a30d2ff2b3aa515a6a06dbb5f
-  nokogiri (1.18.7-aarch64-linux-musl) sha256=3e442dc5b69376e84288295fe37cbb890a21ad816a7e571e5e9967b3c1e30cd3
-  nokogiri (1.18.7-arm-linux-gnu) sha256=337d9149deb5ae01022dff7c90f97bed81715fd586aacab0c5809ef933994c5e
-  nokogiri (1.18.7-arm-linux-musl) sha256=97a26edcc975f780a0822aaf7f7d7427c561067c1c9ee56bd3542960f0c28a6e
-  nokogiri (1.18.7-arm64-darwin) sha256=083abb2e9ed2646860f6b481a981485a658c6064caafaa81bf1cda1bada2e9d5
-  nokogiri (1.18.7-x86_64-darwin) sha256=081d1aa517454ba3415304e2ea51fe411d6a3a809490d0c4aa42799cada417b7
-  nokogiri (1.18.7-x86_64-linux-gnu) sha256=3a0bf946eb2defde13d760f869b61bc8b0c18875afdd3cffa96543cfa3a18005
-  nokogiri (1.18.7-x86_64-linux-musl) sha256=9d83f8ec1fc37a305fa835d7ee61a4f37899e6ccc6dcb05be6645fa9797605af
-  racc (1.8.1) sha256=4a7f6929691dbec8b5209a0b373bc2614882b55fc5d2e447a21aaa691303d62f
-  rake (13.2.1) sha256=46cb38dae65d7d74b6020a4ac9d48afed8eb8149c040eccf0523bec91907059d
 
 BUNDLED WITH
    2.6.8
